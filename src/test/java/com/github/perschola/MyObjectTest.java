@@ -7,12 +7,14 @@ public class MyObjectTest {
     @Test
     public void testRun() { // TODO
         // Given
-        MyObject myObject = new MyObject();
-
-        // when
-        myObject.run();
-
-        //then
-        Assert.assertNotNull(myObject.toString());
+//        MyObject myObject = new MyObject();
+//        Thread counter1 = new Thread(myObject);
+//        Thread counter2 = new Thread(myObject);
+//
+//        // when
+//        myObject.run();
+//
+//        //then
+//        Assert.assertNotNull(myObject.toString());
     }
 }
